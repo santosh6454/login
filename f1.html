@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <title>Anchor Tag</title>
+    <style>
+        p {
+    font-size: 1.3rem;
+}
+
+abbr {
+    font-style: italic;
+    font-weight: 100;
+    
+}
+html {
+    font-family: sans-serif;
+}
+
+bdi {
+
+}
+
+.name {
+    color: red;
+}
+data:hover::after {
+    content: ' (ID ' attr(value) ')';
+    font-size: .7em;
+   
+}
+kbd {
+    background-color: rgba(238, 238, 238, 0.997);
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+   }
+   p {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+iframe {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.output {
+    background: #eee;
+}
+
+    </style>
+</head>
+
+<body>
+    <p>You can reach Michael at:</p>
+
+    <ul>
+        <li><a href="https://example.com">Website</a></li>
+        <li><a href="mailto:m.bluth@example.com">Email</a></li>
+        <li><a href="tel:+123456789">Phone</a></li>
+    </ul>
+    <p>You can use <abbr>CSS</abbr> 
+        (Cascading Style Sheets) to style your 
+        <abbr>HTML</abbr> (HyperText Markup Language). Using style sheets, you can keep your 
+        <abbr>CSS</abbr> presentation layer and
+         <abbr>HTML</abbr> 
+         content layer separate. This is called "separation of concerns."</p>
+         <!-- <b>Tag bring Attention </b> -->
+         <p>The two most popular science courses offered by the school are 
+            <b class="term">chemistry</b> 
+            (the study of chemicals and the composition of substances) and 
+            <b class="term">physics</b> (the study of the nature and properties of matter and energy).</p>
+            <h1>World wrestling championships</h1>
+
+<ul>
+   <li><bdi class="name">Evil Steven</bdi>: 1st place</li>
+   <li><bdi class="name">François fatale</bdi>: 2nd place</li>
+   <li><span class="name">تیز سمی</span>: 3rd place</li>
+   <li><bdi class="name">الرجل القوي إيان</bdi>: 4th place</li>
+   <li><span class="name" dir="auto">تیز سمی</span>: 5th place</li>
+</ul>
+<figure>
+    <blockquote>
+        <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
+    </blockquote>
+    <figcaption>First sentence in <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite> by George Orwell (Part 1, Chapter 1).</figcaption>
+</figure>
+<p>The <code>push()</code> method adds one or more elements to the end of an array and returns the new length of the array.</p>
+<p>New Products:</p>
+<ul>
+    <li><data value="398">Mini Ketchup</data></li>
+    <li><data value="399">Jumbo Ketchup</data></li>
+    <li><data value="400">Mega Jumbo Ketchup</data></li>
+</ul>
+<p>Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page.</p>
+<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>
+
+<p><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+<figure>
+    <figcaption>Listen to the T-Rex:</figcaption>
+    <audio
+        controls
+        src="/media/cc0-audio/t-rex-roar.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+
+
+</body>
+
+</html>
